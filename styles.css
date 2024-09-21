@@ -1,1 +1,45 @@
+.click {
+    background-color: goldenrod;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.click:hover {
+    background-color: aqua;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ul li {
+    color: blue;
+}
+
+ul.one > li:first-child {
+    border: 2px solid yellow;
+}
+
+ul.one > li:last-child {
+    border: 2px solid red;
+}
+
+ul.two > li:nth-child(even) {
+    background-color: rgba(54, 202, 34, 0.534);
+}
+
+ul.two > li:nth-child(odd) {
+    background-color: rgba(59, 57, 57, 0.178);
+}
+
+
+
+ul.three > li.grade:nth-child(3n+7) {
+    background-color: tomato;
+    border-bottom: 2px solid seagreen;
+}
+
+
 
